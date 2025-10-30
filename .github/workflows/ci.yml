@@ -28,7 +28,7 @@ jobs:
       - name: Run tests
         run: pytest -q
 
-build-and-push:
+  build-and-push:
     needs: test
     runs-on: ubuntu-latest
     permissions:
